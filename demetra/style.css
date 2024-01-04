@@ -1,0 +1,114 @@
+/* Base Style */
+body{font-family: 'Inter', sans-serif;font-size: 16px;}
+
+a{text-decoration: none;}
+
+h1,h2,h3,h4,h5, p{color: black; padding-bottom: 30px;}
+
+p{line-height: 20px;color: #666; font-weight: 300;}
+
+.big-text{font-size: 50px; font-weight: 800;}
+.med-text{font-size: 40px;}
+.normal_text{font-size: 20px;}
+.small-text{font-size: 14px;}
+
+.button{padding: 18px 28px; background-color: #316bff; color: #FFF; display: inline-block; border-radius: 7px;}
+
+
+/* ! Header */
+
+.header{
+    width: 100px;
+    position: fixed;
+    top: 0;
+    padding: 30px;
+    display: flex;
+    max-width: 1350px;
+}
+
+.logo{
+    z-index: 1;
+}
+
+.menu{
+    width: 100px;
+    z-index: 1;
+}
+
+.menu{display:inline-flex;}
+.menu li a{
+    padding: 30px;
+    display: block;
+    color: #FFF;
+    width: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+/* ! Hero*/
+
+.hero{
+    height: 100vh;
+    display: flex; 
+    width: 100%;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.3)),url('sfondo-scarpe.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+
+.hero__content{
+    text-align: center;
+    padding-left: 30%;
+}
+
+
+.hero__content h1,
+.hero__content{
+    color: #FFF;
+    line-height: 15px;
+}
+
+.Intro-text{
+    color:#FFF;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: bold 40px;
+   
+}
+
+.big-text{
+    margin-top: 200px;
+    
+}
+
+.button{
+    
+    background-color: #03184e;
+}
+
+.button:active{
+    transform: matrix(14px);
+}
+
+/* ! Social */
+
+
+.social{
+    position: fixed;
+    display: inline-flex;
+    top: 7%;
+    right: 200px;
+
+}
+
+
+@media screen and (max-width: 400px){
+    .hero{
+        width: auto;
+
+        
+    }
+}
