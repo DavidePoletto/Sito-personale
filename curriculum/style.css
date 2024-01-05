@@ -156,7 +156,6 @@ li.menu-list:hover{
 @media screen and (max-width: 768px){
     .header__menu{
         column-gap: 20px;
-
     }
     
     .header__logo{
