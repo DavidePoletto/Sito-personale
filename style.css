@@ -8,7 +8,6 @@ body{
     font-size: 16px;
     font-weight: 700;
     color: #ffffff;
-    
 }
 
 .big-video{
@@ -40,7 +39,6 @@ body{
 .header__content{
     display: flex;
     justify-content: center;
-    
 }
 
 .header__logo{
@@ -119,6 +117,7 @@ li.menu-list:hover{
     display: flex;
     justify-content: center;
 }
+
 #project{
     color: #262626;
     font-size: 40px;
@@ -128,7 +127,6 @@ li.menu-list:hover{
     margin-top: 100px;
     border-top: 1px solid #262626;
     border-bottom: 1px solid #262626;
-    width: 600px;
     text-align: center;
 }
 
@@ -155,7 +153,6 @@ li.menu-list:hover{
     border: 2px solid #262626;
     border-radius: 2%;
 }
-
 
 .img_card{
     width: 100%;
@@ -212,7 +209,6 @@ li.menu-list:hover{
     filter: opacity(1);
     
 }
-
 
 .button_card:hover{
     background-color: #7a7310;
@@ -273,8 +269,6 @@ li.menu-list:hover{
 .contact-inputs:focus{
     border: 2px solid #D9A404;
     box-shadow: 0px 0px 10px 0px #ffffff;
-
-    
 }
 
 .contact-inputs::placeholder{
@@ -300,22 +294,17 @@ li.menu-list:hover{
 .contact-left button:active{
     transform: translateY(5px);
     box-shadow: 0 0 0 0;
-
 }
 
 .logo-container{
-    width: 400px;
     display: flex;
+    margin-top: 20px;
     margin-left: 20px;
 }
 
 .logo img{
     width: 35px;
-    
-    
 }
-
-
 
 @media (hover:none){
     .subtitle_card, .title_card{
@@ -323,8 +312,19 @@ li.menu-list:hover{
     }
 }
 
-
-
 ::-webkit-scrollbar{
     width: 0px;
+}
+
+@media screen and (max-width: 768px){
+    .header__menu{
+        column-gap: 20px;
+    }
+
+    .header__logo{
+        position: absolute;
+        left: 0;
+    }
+
+   
 }
