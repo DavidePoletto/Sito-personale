@@ -306,6 +306,8 @@ li.menu-list:hover{
     width: 35px;
 }
 
+/*MEDIA*/
+
 @media (hover:none){
     .subtitle_card, .title_card{
         filter: opacity(1);
