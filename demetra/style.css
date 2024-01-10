@@ -30,6 +30,10 @@ p{line-height: 20px;color: #666; font-weight: 300;}
     z-index: 1;
 }
 
+.imglogo{
+    width: 150px;
+}
+
 .menu{
     width: 100px;
     z-index: 1;
